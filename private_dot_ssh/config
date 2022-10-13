@@ -1,0 +1,5 @@
+Host s1 
+	User s1_admin
+	HostName 192.168.122.241
+	IdentityFile ~/.ssh/id_ed25519
+	LocalForward 9999 localhost:8888
