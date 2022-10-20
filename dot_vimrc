@@ -87,3 +87,13 @@ set shiftwidth=4
 
 set expandtab
 
+
+call plug#begin()
+
+Plug 'fugitive'
+Plug 'ultisnips'
+Plug 'dispatch'
+Plug 'vimtex', {'for':'tex'}
+
+call plug#end()
+
