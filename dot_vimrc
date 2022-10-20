@@ -90,10 +90,13 @@ set expandtab
 
 call plug#begin()
 
-Plug 'fugitive'
-Plug 'ultisnips'
-Plug 'dispatch'
-Plug 'vimtex', {'for':'tex'}
+Plug 'tpope/vim-fugitive'
+Plug 'sirver/ultisnips'
+Plug 'scrooloose/nerdtree'
+Plug 'lervag/vimtex'
+Plug 'scrooloose/syntastic'
+
+
 
 call plug#end()
 
