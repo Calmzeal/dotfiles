@@ -153,3 +153,6 @@ r() {
 	fi
 }
 export PATH=$PATH:/usr/local/go/bin
+
+
+alias bfg="java -jar $HOME/.config/bfg-1.14.0.jar"
