@@ -1,4 +1,4 @@
-" Comments in Vimscript start with a `"`.
+
 
 " If you open this file in Vim, it'll be syntax highlighted for you.
 
@@ -96,8 +96,10 @@ Plug 'scrooloose/nerdtree'
 Plug 'lervag/vimtex'
 Plug 'scrooloose/syntastic'
 
-
-
 call plug#end()
+
+let g:UltiSnipsExpandTrigger       = '<Tab>'
+let g:UltiSnipsJumpForwardTrigger  = 'jk'
+let g:UltiSnipsJumpBackwardTrigger = 'kl' 
 
 
